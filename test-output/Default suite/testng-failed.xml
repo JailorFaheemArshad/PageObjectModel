@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LoginPageTest">
+      <class name="com.fb.qa.testcases.LoginPageTest">
         <methods>
-          <include name="LoginPageTitle"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- LoginPageTest -->
+      </class> <!-- com.fb.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
